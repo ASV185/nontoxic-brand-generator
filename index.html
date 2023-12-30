@@ -4,34 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
     <title>Non-toxic Brand Generator| Amanda Ventura</title>
 </head>
 
 <body>
-    <h1>AI Non-toxic Brand Generator</h1>
+    <div class="container">
+        <header>
+            <h1>AI Non-toxic Brand Generator</h1>
+        </header>
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the type of product. Ex. cleaner, toothpaste, laundry detergent"
+                    autofocus required autocomplete="off" class="instructions" />
+                <input type="submit" class="submit-button">
+            </form>
+            <div>
+                seventh generation
+                <br>
+                Attitude
+                <br>
+                Koala
+                <br>
+                Method
+            </div>
+        </main>
 
-    <main>
-        <form>
-            <input type="text" placeholder="Enter the type of product. Ex. cleaner, toothpaste, laundry detergent"
-                autofocus required autocomplete="off" />
-            <input type="submit">
-        </form>
-        <div>
-            seventh generation
-            <br>
-            Attitude
-            <br>
-            Koala
-            <br>
-            Method
-        </div>
-    </main>
-
-    <footer>This AI project was coded by <a href="https://github.com/ASV185" target="_blank">Amanda Ventura</a> and is
-        <a href="https://github.com/ASV185/nontoxic-brand-generator" target="_blank">open-sourced</a>
-        on <a href="https://ai-nontoxic-brand-generator.netlify.app/" target="_blank">netlify</a>.
-    </footer>
+        <footer>This AI project was coded by <a href="https://github.com/ASV185" target="_blank">Amanda Ventura</a> and
+            is
+            <a href="https://github.com/ASV185/nontoxic-brand-generator" target="_blank">open-sourced</a>
+            on <a href="https://ai-nontoxic-brand-generator.netlify.app/" target="_blank">netlify</a>.
+        </footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 
