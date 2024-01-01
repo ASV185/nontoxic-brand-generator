@@ -19,11 +19,14 @@
             <h1>AI Non-toxic Brand Generator</h1>
         </header>
         <main>
-            <form id="nontoxic-brand-generator-form">
-                <input type="text" placeholder="Enter the type of product. Ex: deodorants, laundry detergent" autofocus
-                    required autocomplete="off" class="instructions" id="user-instructions" />
-                <input type="submit" class="submit-button">
-            </form>
+            <div class="form-container">
+                <form id="nontoxic-brand-generator-form">
+                    <input type="text" placeholder="Enter the type of product." autofocus required autocomplete="off"
+                        class="instructions" id="user-instructions" />
+                    <input type="submit" class="submit-button">
+                </form>
+                <div class="hint">i.e: Laundry detergent, multipurpose cleanser, deodorants, makeup</div>
+            </div>
             <div class="brands" id="brands"></div>
         </main>
 
