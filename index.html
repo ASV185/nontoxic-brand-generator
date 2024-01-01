@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>Non-toxic Brand Generator| Amanda Ventura</title>
 </head>
@@ -17,20 +18,12 @@
             <h1>AI Non-toxic Brand Generator</h1>
         </header>
         <main>
-            <form>
+            <form id="nontoxic-brand-generator-form">
                 <input type="text" placeholder="Enter the type of product. Ex: deodorants, laundry detergent" autofocus
                     required autocomplete="off" class="instructions" />
                 <input type="submit" class="submit-button">
             </form>
-            <div class="brands">
-                seventh generation
-                <br>
-                Attitude
-                <br>
-                Koala
-                <br>
-                Method
-            </div>
+            <div class="brands" id="brands"></div>
         </main>
 
         <footer>This AI project was coded by <a href="https://github.com/ASV185" target="_blank">Amanda Ventura</a> and
