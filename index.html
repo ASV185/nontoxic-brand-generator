@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>Non-toxic Brand Generator| Amanda Ventura</title>
 </head>
@@ -20,7 +21,7 @@
         <main>
             <form id="nontoxic-brand-generator-form">
                 <input type="text" placeholder="Enter the type of product. Ex: deodorants, laundry detergent" autofocus
-                    required autocomplete="off" class="instructions" />
+                    required autocomplete="off" class="instructions" id="user-instructions" />
                 <input type="submit" class="submit-button">
             </form>
             <div class="brands" id="brands"></div>

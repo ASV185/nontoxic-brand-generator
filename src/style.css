@@ -71,6 +71,10 @@ form {
   border-radius: 10px;
 }
 
+ul {
+  list-style: none;
+}
+
 footer {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
