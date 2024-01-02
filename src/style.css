@@ -95,3 +95,18 @@ footer {
   margin-top: 500px;
   text-shadow: 2px 20px 60px rgba(65, 50, 100, 0.09);
 }
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

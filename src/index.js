@@ -16,8 +16,11 @@ function generateBrand(event) {
   let context =
     "User instructions: You are a smart AI assistant please name a nontoxic product brand. Make sure to follow user instructions. The brands must be provided in HTML format. Example: <p>this is a brand</p>";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
-  let brand = document.querySelector("#brands");
-  brand.innerHTML = "Generating a Brand for you. Please wait...";
+
+  let brandElement = document.querySelector("#brands");
+  brandElement.classList.remove("hidden");
+  brandElement.innerHTML = `<div class="generating">⌛Generating a Brand for ${instructionsInput.value}. Please wait...</div>`;
+
   axios.get(apiUrl).then(displayBrands);
 }
 
